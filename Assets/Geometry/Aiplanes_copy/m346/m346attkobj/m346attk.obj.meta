@@ -1,0 +1,931 @@
+fileFormatVersion: 2
+guid: 7d5cc65e06262402681fe4cf8ed7fcd2
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: M346attack_antenna
+    100002: M346attack_armi irisT1 aletta
+    100004: M346attack_armi irisT1 aletta1
+    100006: M346attack_armi irisT1 Cilindro4
+    100008: M346attack_armi irisT1 sostiris2
+    100010: M346attack_blkpcs
+    100012: M346attack_Cilindro
+    100014: M346attack_Cilindro2
+    100016: M346attack_fuelarmG fuelarm
+    100018: M346attack_fuelarmG fuelarm1
+    100020: M346attack_fuelarmG fuelarm11
+    100022: M346attack_fuelarmG fuelarm2
+    100024: M346attack_GRantG frontlightG1 frontlight1
+    100026: M346attack_GRantG frontlightG1 frontlightgls1
+    100028: M346attack_GRantG grantferm
+    100030: M346attack_GRantG Oggetto_Nullo2 cercant
+    100032: M346attack_GRantG Oggetto_Nullo2 tireant
+    100034: M346attack_intkblk
+    100036: M346attack_iristip irisT aletta2
+    100038: M346attack_iristip irisT aletta3
+    100040: M346attack_iristip irisT Cilindro5
+    100042: M346attack_iristip sostgnoirisG sostiris
+    100044: M346attack_iristip sostgnoirisG sostiris1
+    100046: M346attack_lighttop
+    100048: M346attack_Oggetto_Nullo8 alrn
+    100050: M346attack_Oggetto_Nullo8 body
+    100052: M346attack_Oggetto_Nullo8 bodyint
+    100054: M346attack_Oggetto_Nullo8 doorfw1
+    100056: M346attack_Oggetto_Nullo8 glass
+    100058: M346attack_Oggetto_Nullo8 glassframe
+    100060: M346attack_Oggetto_Nullo8 intdr
+    100062: M346attack_Oggetto_Nullo8 intk
+    100064: M346attack_Oggetto_Nullo8 intk2
+    100066: M346attack_Oggetto_Nullo8 nose
+    100068: M346attack_Oggetto_Nullo8 ruddeepiece
+    100070: M346attack_Oggetto_Nullo8 rudder
+    100072: M346attack_Oggetto_Nullo8 Simmetria4 doorside doorfw
+    100074: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr
+    100076: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr2
+    100078: M346attack_Oggetto_Nullo8 wings
+    100080: M346attack_Oggetto_Nullo8 winhlet
+    100082: M346attack_pcswing
+    100084: M346attack_piecs
+    100086: M346attack_pilots interno aimglass1
+    100088: M346attack_pilots interno cockpit
+    100090: M346attack_pilots interno pilot mask
+    100092: M346attack_pilots interno pilot Oggetto_Nullo7 casco
+    100094: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      mask1
+    100096: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visiera
+    100098: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visieresterna
+    100100: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 belts
+    100102: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 pilot1
+    100104: M346attack_pilots interno seat
+    100106: M346attack_pilots interno seatbr
+    100108: M346attack_pilots interno1 aimglass
+    100110: M346attack_pilots interno1 cockpit1
+    100112: M346attack_pilots interno1 pilot2 mask2
+    100114: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 casco1
+    100116: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      mask3
+    100118: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visiera1
+    100120: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visieresterna1
+    100122: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 belts1
+    100124: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 pilot3
+    100126: M346attack_pilots interno1 seat1
+    100128: M346attack_pilots interno1 seatbr1
+    100130: M346attack_Simmetria Oggetto_Nullo4 cbu alettaant
+    100132: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost
+    100134: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost1
+    100136: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost2
+    100138: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost3
+    100140: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost4
+    100142: M346attack_Simmetria Oggetto_Nullo4 cbu attacco
+    100144: M346attack_Simmetria Oggetto_Nullo4 cbu backbomb
+    100146: M346attack_Simmetria Oggetto_Nullo4 cbu bomb
+    100148: M346attack_Simmetria Oggetto_Nullo4 cbu Cilindro1
+    100150: M346attack_Simmetria Oggetto_Nullo4 cbu puntat
+    100152: M346attack_Simmetria Oggetto_Nullo4 tankG tank
+    100154: M346attack_Simmetria Oggetto_Nullo4 tankG tankwing
+    100156: M346attack_Simmetria1 lGRsdG Cilindro3
+    100158: M346attack_Simmetria1 lGRsdG frontlightG frontlight
+    100160: M346attack_Simmetria1 lGRsdG frontlightG frontlightgls
+    100162: M346attack_Simmetria1 lGRsdG leggrside
+    100164: M346attack_Simmetria1 lGRsdG legsdrng
+    100166: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 cercsd
+    100168: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 tiresd
+    100170: M346attack_sniper sniper1
+    100172: M346attack_sniper sniperglass
+    100174: M346attack_sostwing
+    100176: //RootNode
+    100178: M346attack_armi_irisT1_aletta
+    100180: M346attack_armi_irisT1_aletta1
+    100182: M346attack_armi_irisT1_Cilindro4
+    100184: M346attack_armi_irisT1_sostiris2
+    100186: M346attack_fuelarmG_fuelarm
+    100188: M346attack_fuelarmG_fuelarm1
+    100190: M346attack_fuelarmG_fuelarm11
+    100192: M346attack_fuelarmG_fuelarm2
+    100194: M346attack_GRantG_frontlightG1_frontlight1
+    100196: M346attack_GRantG_frontlightG1_frontlightgls1
+    100198: M346attack_GRantG_grantferm
+    100200: M346attack_GRantG_Oggetto_Nullo2_cercant
+    100202: M346attack_GRantG_Oggetto_Nullo2_tireant
+    100204: M346attack_iristip_irisT_aletta2
+    100206: M346attack_iristip_irisT_aletta3
+    100208: M346attack_iristip_irisT_Cilindro5
+    100210: M346attack_iristip_sostgnoirisG_sostiris
+    100212: M346attack_iristip_sostgnoirisG_sostiris1
+    100214: M346attack_Oggetto_Nullo8_alrn
+    100216: M346attack_Oggetto_Nullo8_body
+    100218: M346attack_Oggetto_Nullo8_bodyint
+    100220: M346attack_Oggetto_Nullo8_doorfw1
+    100222: M346attack_Oggetto_Nullo8_glass
+    100224: M346attack_Oggetto_Nullo8_glassframe
+    100226: M346attack_Oggetto_Nullo8_intdr
+    100228: M346attack_Oggetto_Nullo8_intk
+    100230: M346attack_Oggetto_Nullo8_intk2
+    100232: M346attack_Oggetto_Nullo8_nose
+    100234: M346attack_Oggetto_Nullo8_ruddeepiece
+    100236: M346attack_Oggetto_Nullo8_rudder
+    100238: M346attack_Oggetto_Nullo8_Simmetria4_doorside_doorfw
+    100240: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr
+    100242: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr2
+    100244: M346attack_Oggetto_Nullo8_wings
+    100246: M346attack_Oggetto_Nullo8_winhlet
+    100248: M346attack_pilots_interno1_aimglass
+    100250: M346attack_pilots_interno1_cockpit1
+    100252: M346attack_pilots_interno1_pilot2_mask2
+    100254: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_casco1
+    100256: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_mask3
+    100258: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visiera1
+    100260: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visieresterna1
+    100262: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_belts1
+    100264: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_pilot3
+    100266: M346attack_pilots_interno1_seat1
+    100268: M346attack_pilots_interno1_seatbr1
+    100270: M346attack_pilots_interno_aimglass1
+    100272: M346attack_pilots_interno_cockpit
+    100274: M346attack_pilots_interno_pilot_mask
+    100276: M346attack_pilots_interno_pilot_Oggetto_Nullo7_casco
+    100278: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_mask1
+    100280: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visiera
+    100282: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visieresterna
+    100284: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_belts
+    100286: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_pilot1
+    100288: M346attack_pilots_interno_seat
+    100290: M346attack_pilots_interno_seatbr
+    100292: M346attack_Simmetria1_lGRsdG_Cilindro3
+    100294: M346attack_Simmetria1_lGRsdG_frontlightG_frontlight
+    100296: M346attack_Simmetria1_lGRsdG_frontlightG_frontlightgls
+    100298: M346attack_Simmetria1_lGRsdG_leggrside
+    100300: M346attack_Simmetria1_lGRsdG_legsdrng
+    100302: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_cercsd
+    100304: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_tiresd
+    100306: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettaant
+    100308: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost
+    100310: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost1
+    100312: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost2
+    100314: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost3
+    100316: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost4
+    100318: M346attack_Simmetria_Oggetto_Nullo4_cbu_attacco
+    100320: M346attack_Simmetria_Oggetto_Nullo4_cbu_backbomb
+    100322: M346attack_Simmetria_Oggetto_Nullo4_cbu_bomb
+    100324: M346attack_Simmetria_Oggetto_Nullo4_cbu_Cilindro1
+    100326: M346attack_Simmetria_Oggetto_Nullo4_cbu_puntat
+    100328: M346attack_Simmetria_Oggetto_Nullo4_tankG_tank
+    100330: M346attack_Simmetria_Oggetto_Nullo4_tankG_tankwing
+    100332: M346attack_sniper_sniper1
+    100334: M346attack_sniper_sniperglass
+    400000: M346attack_antenna
+    400002: M346attack_armi irisT1 aletta
+    400004: M346attack_armi irisT1 aletta1
+    400006: M346attack_armi irisT1 Cilindro4
+    400008: M346attack_armi irisT1 sostiris2
+    400010: M346attack_blkpcs
+    400012: M346attack_Cilindro
+    400014: M346attack_Cilindro2
+    400016: M346attack_fuelarmG fuelarm
+    400018: M346attack_fuelarmG fuelarm1
+    400020: M346attack_fuelarmG fuelarm11
+    400022: M346attack_fuelarmG fuelarm2
+    400024: M346attack_GRantG frontlightG1 frontlight1
+    400026: M346attack_GRantG frontlightG1 frontlightgls1
+    400028: M346attack_GRantG grantferm
+    400030: M346attack_GRantG Oggetto_Nullo2 cercant
+    400032: M346attack_GRantG Oggetto_Nullo2 tireant
+    400034: M346attack_intkblk
+    400036: M346attack_iristip irisT aletta2
+    400038: M346attack_iristip irisT aletta3
+    400040: M346attack_iristip irisT Cilindro5
+    400042: M346attack_iristip sostgnoirisG sostiris
+    400044: M346attack_iristip sostgnoirisG sostiris1
+    400046: M346attack_lighttop
+    400048: M346attack_Oggetto_Nullo8 alrn
+    400050: M346attack_Oggetto_Nullo8 body
+    400052: M346attack_Oggetto_Nullo8 bodyint
+    400054: M346attack_Oggetto_Nullo8 doorfw1
+    400056: M346attack_Oggetto_Nullo8 glass
+    400058: M346attack_Oggetto_Nullo8 glassframe
+    400060: M346attack_Oggetto_Nullo8 intdr
+    400062: M346attack_Oggetto_Nullo8 intk
+    400064: M346attack_Oggetto_Nullo8 intk2
+    400066: M346attack_Oggetto_Nullo8 nose
+    400068: M346attack_Oggetto_Nullo8 ruddeepiece
+    400070: M346attack_Oggetto_Nullo8 rudder
+    400072: M346attack_Oggetto_Nullo8 Simmetria4 doorside doorfw
+    400074: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr
+    400076: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr2
+    400078: M346attack_Oggetto_Nullo8 wings
+    400080: M346attack_Oggetto_Nullo8 winhlet
+    400082: M346attack_pcswing
+    400084: M346attack_piecs
+    400086: M346attack_pilots interno aimglass1
+    400088: M346attack_pilots interno cockpit
+    400090: M346attack_pilots interno pilot mask
+    400092: M346attack_pilots interno pilot Oggetto_Nullo7 casco
+    400094: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      mask1
+    400096: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visiera
+    400098: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visieresterna
+    400100: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 belts
+    400102: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 pilot1
+    400104: M346attack_pilots interno seat
+    400106: M346attack_pilots interno seatbr
+    400108: M346attack_pilots interno1 aimglass
+    400110: M346attack_pilots interno1 cockpit1
+    400112: M346attack_pilots interno1 pilot2 mask2
+    400114: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 casco1
+    400116: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      mask3
+    400118: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visiera1
+    400120: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visieresterna1
+    400122: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 belts1
+    400124: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 pilot3
+    400126: M346attack_pilots interno1 seat1
+    400128: M346attack_pilots interno1 seatbr1
+    400130: M346attack_Simmetria Oggetto_Nullo4 cbu alettaant
+    400132: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost
+    400134: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost1
+    400136: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost2
+    400138: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost3
+    400140: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost4
+    400142: M346attack_Simmetria Oggetto_Nullo4 cbu attacco
+    400144: M346attack_Simmetria Oggetto_Nullo4 cbu backbomb
+    400146: M346attack_Simmetria Oggetto_Nullo4 cbu bomb
+    400148: M346attack_Simmetria Oggetto_Nullo4 cbu Cilindro1
+    400150: M346attack_Simmetria Oggetto_Nullo4 cbu puntat
+    400152: M346attack_Simmetria Oggetto_Nullo4 tankG tank
+    400154: M346attack_Simmetria Oggetto_Nullo4 tankG tankwing
+    400156: M346attack_Simmetria1 lGRsdG Cilindro3
+    400158: M346attack_Simmetria1 lGRsdG frontlightG frontlight
+    400160: M346attack_Simmetria1 lGRsdG frontlightG frontlightgls
+    400162: M346attack_Simmetria1 lGRsdG leggrside
+    400164: M346attack_Simmetria1 lGRsdG legsdrng
+    400166: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 cercsd
+    400168: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 tiresd
+    400170: M346attack_sniper sniper1
+    400172: M346attack_sniper sniperglass
+    400174: M346attack_sostwing
+    400176: //RootNode
+    400178: M346attack_armi_irisT1_aletta
+    400180: M346attack_armi_irisT1_aletta1
+    400182: M346attack_armi_irisT1_Cilindro4
+    400184: M346attack_armi_irisT1_sostiris2
+    400186: M346attack_fuelarmG_fuelarm
+    400188: M346attack_fuelarmG_fuelarm1
+    400190: M346attack_fuelarmG_fuelarm11
+    400192: M346attack_fuelarmG_fuelarm2
+    400194: M346attack_GRantG_frontlightG1_frontlight1
+    400196: M346attack_GRantG_frontlightG1_frontlightgls1
+    400198: M346attack_GRantG_grantferm
+    400200: M346attack_GRantG_Oggetto_Nullo2_cercant
+    400202: M346attack_GRantG_Oggetto_Nullo2_tireant
+    400204: M346attack_iristip_irisT_aletta2
+    400206: M346attack_iristip_irisT_aletta3
+    400208: M346attack_iristip_irisT_Cilindro5
+    400210: M346attack_iristip_sostgnoirisG_sostiris
+    400212: M346attack_iristip_sostgnoirisG_sostiris1
+    400214: M346attack_Oggetto_Nullo8_alrn
+    400216: M346attack_Oggetto_Nullo8_body
+    400218: M346attack_Oggetto_Nullo8_bodyint
+    400220: M346attack_Oggetto_Nullo8_doorfw1
+    400222: M346attack_Oggetto_Nullo8_glass
+    400224: M346attack_Oggetto_Nullo8_glassframe
+    400226: M346attack_Oggetto_Nullo8_intdr
+    400228: M346attack_Oggetto_Nullo8_intk
+    400230: M346attack_Oggetto_Nullo8_intk2
+    400232: M346attack_Oggetto_Nullo8_nose
+    400234: M346attack_Oggetto_Nullo8_ruddeepiece
+    400236: M346attack_Oggetto_Nullo8_rudder
+    400238: M346attack_Oggetto_Nullo8_Simmetria4_doorside_doorfw
+    400240: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr
+    400242: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr2
+    400244: M346attack_Oggetto_Nullo8_wings
+    400246: M346attack_Oggetto_Nullo8_winhlet
+    400248: M346attack_pilots_interno1_aimglass
+    400250: M346attack_pilots_interno1_cockpit1
+    400252: M346attack_pilots_interno1_pilot2_mask2
+    400254: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_casco1
+    400256: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_mask3
+    400258: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visiera1
+    400260: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visieresterna1
+    400262: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_belts1
+    400264: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_pilot3
+    400266: M346attack_pilots_interno1_seat1
+    400268: M346attack_pilots_interno1_seatbr1
+    400270: M346attack_pilots_interno_aimglass1
+    400272: M346attack_pilots_interno_cockpit
+    400274: M346attack_pilots_interno_pilot_mask
+    400276: M346attack_pilots_interno_pilot_Oggetto_Nullo7_casco
+    400278: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_mask1
+    400280: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visiera
+    400282: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visieresterna
+    400284: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_belts
+    400286: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_pilot1
+    400288: M346attack_pilots_interno_seat
+    400290: M346attack_pilots_interno_seatbr
+    400292: M346attack_Simmetria1_lGRsdG_Cilindro3
+    400294: M346attack_Simmetria1_lGRsdG_frontlightG_frontlight
+    400296: M346attack_Simmetria1_lGRsdG_frontlightG_frontlightgls
+    400298: M346attack_Simmetria1_lGRsdG_leggrside
+    400300: M346attack_Simmetria1_lGRsdG_legsdrng
+    400302: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_cercsd
+    400304: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_tiresd
+    400306: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettaant
+    400308: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost
+    400310: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost1
+    400312: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost2
+    400314: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost3
+    400316: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost4
+    400318: M346attack_Simmetria_Oggetto_Nullo4_cbu_attacco
+    400320: M346attack_Simmetria_Oggetto_Nullo4_cbu_backbomb
+    400322: M346attack_Simmetria_Oggetto_Nullo4_cbu_bomb
+    400324: M346attack_Simmetria_Oggetto_Nullo4_cbu_Cilindro1
+    400326: M346attack_Simmetria_Oggetto_Nullo4_cbu_puntat
+    400328: M346attack_Simmetria_Oggetto_Nullo4_tankG_tank
+    400330: M346attack_Simmetria_Oggetto_Nullo4_tankG_tankwing
+    400332: M346attack_sniper_sniper1
+    400334: M346attack_sniper_sniperglass
+    2300000: M346attack_antenna
+    2300002: M346attack_armi irisT1 aletta
+    2300004: M346attack_armi irisT1 aletta1
+    2300006: M346attack_armi irisT1 Cilindro4
+    2300008: M346attack_armi irisT1 sostiris2
+    2300010: M346attack_blkpcs
+    2300012: M346attack_Cilindro
+    2300014: M346attack_Cilindro2
+    2300016: M346attack_fuelarmG fuelarm
+    2300018: M346attack_fuelarmG fuelarm1
+    2300020: M346attack_fuelarmG fuelarm11
+    2300022: M346attack_fuelarmG fuelarm2
+    2300024: M346attack_GRantG frontlightG1 frontlight1
+    2300026: M346attack_GRantG frontlightG1 frontlightgls1
+    2300028: M346attack_GRantG grantferm
+    2300030: M346attack_GRantG Oggetto_Nullo2 cercant
+    2300032: M346attack_GRantG Oggetto_Nullo2 tireant
+    2300034: M346attack_intkblk
+    2300036: M346attack_iristip irisT aletta2
+    2300038: M346attack_iristip irisT aletta3
+    2300040: M346attack_iristip irisT Cilindro5
+    2300042: M346attack_iristip sostgnoirisG sostiris
+    2300044: M346attack_iristip sostgnoirisG sostiris1
+    2300046: M346attack_lighttop
+    2300048: M346attack_Oggetto_Nullo8 alrn
+    2300050: M346attack_Oggetto_Nullo8 body
+    2300052: M346attack_Oggetto_Nullo8 bodyint
+    2300054: M346attack_Oggetto_Nullo8 doorfw1
+    2300056: M346attack_Oggetto_Nullo8 glass
+    2300058: M346attack_Oggetto_Nullo8 glassframe
+    2300060: M346attack_Oggetto_Nullo8 intdr
+    2300062: M346attack_Oggetto_Nullo8 intk
+    2300064: M346attack_Oggetto_Nullo8 intk2
+    2300066: M346attack_Oggetto_Nullo8 nose
+    2300068: M346attack_Oggetto_Nullo8 ruddeepiece
+    2300070: M346attack_Oggetto_Nullo8 rudder
+    2300072: M346attack_Oggetto_Nullo8 Simmetria4 doorside doorfw
+    2300074: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr
+    2300076: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr2
+    2300078: M346attack_Oggetto_Nullo8 wings
+    2300080: M346attack_Oggetto_Nullo8 winhlet
+    2300082: M346attack_pcswing
+    2300084: M346attack_piecs
+    2300086: M346attack_pilots interno aimglass1
+    2300088: M346attack_pilots interno cockpit
+    2300090: M346attack_pilots interno pilot mask
+    2300092: M346attack_pilots interno pilot Oggetto_Nullo7 casco
+    2300094: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      mask1
+    2300096: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visiera
+    2300098: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visieresterna
+    2300100: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 belts
+    2300102: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 pilot1
+    2300104: M346attack_pilots interno seat
+    2300106: M346attack_pilots interno seatbr
+    2300108: M346attack_pilots interno1 aimglass
+    2300110: M346attack_pilots interno1 cockpit1
+    2300112: M346attack_pilots interno1 pilot2 mask2
+    2300114: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 casco1
+    2300116: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      mask3
+    2300118: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visiera1
+    2300120: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visieresterna1
+    2300122: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 belts1
+    2300124: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 pilot3
+    2300126: M346attack_pilots interno1 seat1
+    2300128: M346attack_pilots interno1 seatbr1
+    2300130: M346attack_Simmetria Oggetto_Nullo4 cbu alettaant
+    2300132: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost
+    2300134: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost1
+    2300136: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost2
+    2300138: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost3
+    2300140: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost4
+    2300142: M346attack_Simmetria Oggetto_Nullo4 cbu attacco
+    2300144: M346attack_Simmetria Oggetto_Nullo4 cbu backbomb
+    2300146: M346attack_Simmetria Oggetto_Nullo4 cbu bomb
+    2300148: M346attack_Simmetria Oggetto_Nullo4 cbu Cilindro1
+    2300150: M346attack_Simmetria Oggetto_Nullo4 cbu puntat
+    2300152: M346attack_Simmetria Oggetto_Nullo4 tankG tank
+    2300154: M346attack_Simmetria Oggetto_Nullo4 tankG tankwing
+    2300156: M346attack_Simmetria1 lGRsdG Cilindro3
+    2300158: M346attack_Simmetria1 lGRsdG frontlightG frontlight
+    2300160: M346attack_Simmetria1 lGRsdG frontlightG frontlightgls
+    2300162: M346attack_Simmetria1 lGRsdG leggrside
+    2300164: M346attack_Simmetria1 lGRsdG legsdrng
+    2300166: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 cercsd
+    2300168: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 tiresd
+    2300170: M346attack_sniper sniper1
+    2300172: M346attack_sniper sniperglass
+    2300174: M346attack_sostwing
+    2300176: M346attack_armi_irisT1_aletta
+    2300178: M346attack_armi_irisT1_aletta1
+    2300180: M346attack_armi_irisT1_Cilindro4
+    2300182: M346attack_armi_irisT1_sostiris2
+    2300184: M346attack_fuelarmG_fuelarm
+    2300186: M346attack_fuelarmG_fuelarm1
+    2300188: M346attack_fuelarmG_fuelarm11
+    2300190: M346attack_fuelarmG_fuelarm2
+    2300192: M346attack_GRantG_frontlightG1_frontlight1
+    2300194: M346attack_GRantG_frontlightG1_frontlightgls1
+    2300196: M346attack_GRantG_grantferm
+    2300198: M346attack_GRantG_Oggetto_Nullo2_cercant
+    2300200: M346attack_GRantG_Oggetto_Nullo2_tireant
+    2300202: M346attack_iristip_irisT_aletta2
+    2300204: M346attack_iristip_irisT_aletta3
+    2300206: M346attack_iristip_irisT_Cilindro5
+    2300208: M346attack_iristip_sostgnoirisG_sostiris
+    2300210: M346attack_iristip_sostgnoirisG_sostiris1
+    2300212: M346attack_Oggetto_Nullo8_alrn
+    2300214: M346attack_Oggetto_Nullo8_body
+    2300216: M346attack_Oggetto_Nullo8_bodyint
+    2300218: M346attack_Oggetto_Nullo8_doorfw1
+    2300220: M346attack_Oggetto_Nullo8_glass
+    2300222: M346attack_Oggetto_Nullo8_glassframe
+    2300224: M346attack_Oggetto_Nullo8_intdr
+    2300226: M346attack_Oggetto_Nullo8_intk
+    2300228: M346attack_Oggetto_Nullo8_intk2
+    2300230: M346attack_Oggetto_Nullo8_nose
+    2300232: M346attack_Oggetto_Nullo8_ruddeepiece
+    2300234: M346attack_Oggetto_Nullo8_rudder
+    2300236: M346attack_Oggetto_Nullo8_Simmetria4_doorside_doorfw
+    2300238: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr
+    2300240: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr2
+    2300242: M346attack_Oggetto_Nullo8_wings
+    2300244: M346attack_Oggetto_Nullo8_winhlet
+    2300246: M346attack_pilots_interno1_aimglass
+    2300248: M346attack_pilots_interno1_cockpit1
+    2300250: M346attack_pilots_interno1_pilot2_mask2
+    2300252: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_casco1
+    2300254: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_mask3
+    2300256: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visiera1
+    2300258: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visieresterna1
+    2300260: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_belts1
+    2300262: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_pilot3
+    2300264: M346attack_pilots_interno1_seat1
+    2300266: M346attack_pilots_interno1_seatbr1
+    2300268: M346attack_pilots_interno_aimglass1
+    2300270: M346attack_pilots_interno_cockpit
+    2300272: M346attack_pilots_interno_pilot_mask
+    2300274: M346attack_pilots_interno_pilot_Oggetto_Nullo7_casco
+    2300276: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_mask1
+    2300278: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visiera
+    2300280: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visieresterna
+    2300282: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_belts
+    2300284: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_pilot1
+    2300286: M346attack_pilots_interno_seat
+    2300288: M346attack_pilots_interno_seatbr
+    2300290: M346attack_Simmetria1_lGRsdG_Cilindro3
+    2300292: M346attack_Simmetria1_lGRsdG_frontlightG_frontlight
+    2300294: M346attack_Simmetria1_lGRsdG_frontlightG_frontlightgls
+    2300296: M346attack_Simmetria1_lGRsdG_leggrside
+    2300298: M346attack_Simmetria1_lGRsdG_legsdrng
+    2300300: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_cercsd
+    2300302: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_tiresd
+    2300304: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettaant
+    2300306: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost
+    2300308: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost1
+    2300310: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost2
+    2300312: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost3
+    2300314: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost4
+    2300316: M346attack_Simmetria_Oggetto_Nullo4_cbu_attacco
+    2300318: M346attack_Simmetria_Oggetto_Nullo4_cbu_backbomb
+    2300320: M346attack_Simmetria_Oggetto_Nullo4_cbu_bomb
+    2300322: M346attack_Simmetria_Oggetto_Nullo4_cbu_Cilindro1
+    2300324: M346attack_Simmetria_Oggetto_Nullo4_cbu_puntat
+    2300326: M346attack_Simmetria_Oggetto_Nullo4_tankG_tank
+    2300328: M346attack_Simmetria_Oggetto_Nullo4_tankG_tankwing
+    2300330: M346attack_sniper_sniper1
+    2300332: M346attack_sniper_sniperglass
+    3300000: M346attack_antenna
+    3300002: M346attack_armi irisT1 aletta
+    3300004: M346attack_armi irisT1 aletta1
+    3300006: M346attack_armi irisT1 Cilindro4
+    3300008: M346attack_armi irisT1 sostiris2
+    3300010: M346attack_blkpcs
+    3300012: M346attack_Cilindro
+    3300014: M346attack_Cilindro2
+    3300016: M346attack_fuelarmG fuelarm
+    3300018: M346attack_fuelarmG fuelarm1
+    3300020: M346attack_fuelarmG fuelarm11
+    3300022: M346attack_fuelarmG fuelarm2
+    3300024: M346attack_GRantG frontlightG1 frontlight1
+    3300026: M346attack_GRantG frontlightG1 frontlightgls1
+    3300028: M346attack_GRantG grantferm
+    3300030: M346attack_GRantG Oggetto_Nullo2 cercant
+    3300032: M346attack_GRantG Oggetto_Nullo2 tireant
+    3300034: M346attack_intkblk
+    3300036: M346attack_iristip irisT aletta2
+    3300038: M346attack_iristip irisT aletta3
+    3300040: M346attack_iristip irisT Cilindro5
+    3300042: M346attack_iristip sostgnoirisG sostiris
+    3300044: M346attack_iristip sostgnoirisG sostiris1
+    3300046: M346attack_lighttop
+    3300048: M346attack_Oggetto_Nullo8 alrn
+    3300050: M346attack_Oggetto_Nullo8 body
+    3300052: M346attack_Oggetto_Nullo8 bodyint
+    3300054: M346attack_Oggetto_Nullo8 doorfw1
+    3300056: M346attack_Oggetto_Nullo8 glass
+    3300058: M346attack_Oggetto_Nullo8 glassframe
+    3300060: M346attack_Oggetto_Nullo8 intdr
+    3300062: M346attack_Oggetto_Nullo8 intk
+    3300064: M346attack_Oggetto_Nullo8 intk2
+    3300066: M346attack_Oggetto_Nullo8 nose
+    3300068: M346attack_Oggetto_Nullo8 ruddeepiece
+    3300070: M346attack_Oggetto_Nullo8 rudder
+    3300072: M346attack_Oggetto_Nullo8 Simmetria4 doorside doorfw
+    3300074: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr
+    3300076: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr2
+    3300078: M346attack_Oggetto_Nullo8 wings
+    3300080: M346attack_Oggetto_Nullo8 winhlet
+    3300082: M346attack_pcswing
+    3300084: M346attack_piecs
+    3300086: M346attack_pilots interno aimglass1
+    3300088: M346attack_pilots interno cockpit
+    3300090: M346attack_pilots interno pilot mask
+    3300092: M346attack_pilots interno pilot Oggetto_Nullo7 casco
+    3300094: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      mask1
+    3300096: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visiera
+    3300098: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visieresterna
+    3300100: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 belts
+    3300102: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 pilot1
+    3300104: M346attack_pilots interno seat
+    3300106: M346attack_pilots interno seatbr
+    3300108: M346attack_pilots interno1 aimglass
+    3300110: M346attack_pilots interno1 cockpit1
+    3300112: M346attack_pilots interno1 pilot2 mask2
+    3300114: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 casco1
+    3300116: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      mask3
+    3300118: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visiera1
+    3300120: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visieresterna1
+    3300122: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 belts1
+    3300124: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 pilot3
+    3300126: M346attack_pilots interno1 seat1
+    3300128: M346attack_pilots interno1 seatbr1
+    3300130: M346attack_Simmetria Oggetto_Nullo4 cbu alettaant
+    3300132: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost
+    3300134: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost1
+    3300136: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost2
+    3300138: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost3
+    3300140: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost4
+    3300142: M346attack_Simmetria Oggetto_Nullo4 cbu attacco
+    3300144: M346attack_Simmetria Oggetto_Nullo4 cbu backbomb
+    3300146: M346attack_Simmetria Oggetto_Nullo4 cbu bomb
+    3300148: M346attack_Simmetria Oggetto_Nullo4 cbu Cilindro1
+    3300150: M346attack_Simmetria Oggetto_Nullo4 cbu puntat
+    3300152: M346attack_Simmetria Oggetto_Nullo4 tankG tank
+    3300154: M346attack_Simmetria Oggetto_Nullo4 tankG tankwing
+    3300156: M346attack_Simmetria1 lGRsdG Cilindro3
+    3300158: M346attack_Simmetria1 lGRsdG frontlightG frontlight
+    3300160: M346attack_Simmetria1 lGRsdG frontlightG frontlightgls
+    3300162: M346attack_Simmetria1 lGRsdG leggrside
+    3300164: M346attack_Simmetria1 lGRsdG legsdrng
+    3300166: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 cercsd
+    3300168: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 tiresd
+    3300170: M346attack_sniper sniper1
+    3300172: M346attack_sniper sniperglass
+    3300174: M346attack_sostwing
+    3300176: M346attack_armi_irisT1_aletta
+    3300178: M346attack_armi_irisT1_aletta1
+    3300180: M346attack_armi_irisT1_Cilindro4
+    3300182: M346attack_armi_irisT1_sostiris2
+    3300184: M346attack_fuelarmG_fuelarm
+    3300186: M346attack_fuelarmG_fuelarm1
+    3300188: M346attack_fuelarmG_fuelarm11
+    3300190: M346attack_fuelarmG_fuelarm2
+    3300192: M346attack_GRantG_frontlightG1_frontlight1
+    3300194: M346attack_GRantG_frontlightG1_frontlightgls1
+    3300196: M346attack_GRantG_grantferm
+    3300198: M346attack_GRantG_Oggetto_Nullo2_cercant
+    3300200: M346attack_GRantG_Oggetto_Nullo2_tireant
+    3300202: M346attack_iristip_irisT_aletta2
+    3300204: M346attack_iristip_irisT_aletta3
+    3300206: M346attack_iristip_irisT_Cilindro5
+    3300208: M346attack_iristip_sostgnoirisG_sostiris
+    3300210: M346attack_iristip_sostgnoirisG_sostiris1
+    3300212: M346attack_Oggetto_Nullo8_alrn
+    3300214: M346attack_Oggetto_Nullo8_body
+    3300216: M346attack_Oggetto_Nullo8_bodyint
+    3300218: M346attack_Oggetto_Nullo8_doorfw1
+    3300220: M346attack_Oggetto_Nullo8_glass
+    3300222: M346attack_Oggetto_Nullo8_glassframe
+    3300224: M346attack_Oggetto_Nullo8_intdr
+    3300226: M346attack_Oggetto_Nullo8_intk
+    3300228: M346attack_Oggetto_Nullo8_intk2
+    3300230: M346attack_Oggetto_Nullo8_nose
+    3300232: M346attack_Oggetto_Nullo8_ruddeepiece
+    3300234: M346attack_Oggetto_Nullo8_rudder
+    3300236: M346attack_Oggetto_Nullo8_Simmetria4_doorside_doorfw
+    3300238: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr
+    3300240: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr2
+    3300242: M346attack_Oggetto_Nullo8_wings
+    3300244: M346attack_Oggetto_Nullo8_winhlet
+    3300246: M346attack_pilots_interno1_aimglass
+    3300248: M346attack_pilots_interno1_cockpit1
+    3300250: M346attack_pilots_interno1_pilot2_mask2
+    3300252: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_casco1
+    3300254: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_mask3
+    3300256: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visiera1
+    3300258: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visieresterna1
+    3300260: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_belts1
+    3300262: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_pilot3
+    3300264: M346attack_pilots_interno1_seat1
+    3300266: M346attack_pilots_interno1_seatbr1
+    3300268: M346attack_pilots_interno_aimglass1
+    3300270: M346attack_pilots_interno_cockpit
+    3300272: M346attack_pilots_interno_pilot_mask
+    3300274: M346attack_pilots_interno_pilot_Oggetto_Nullo7_casco
+    3300276: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_mask1
+    3300278: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visiera
+    3300280: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visieresterna
+    3300282: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_belts
+    3300284: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_pilot1
+    3300286: M346attack_pilots_interno_seat
+    3300288: M346attack_pilots_interno_seatbr
+    3300290: M346attack_Simmetria1_lGRsdG_Cilindro3
+    3300292: M346attack_Simmetria1_lGRsdG_frontlightG_frontlight
+    3300294: M346attack_Simmetria1_lGRsdG_frontlightG_frontlightgls
+    3300296: M346attack_Simmetria1_lGRsdG_leggrside
+    3300298: M346attack_Simmetria1_lGRsdG_legsdrng
+    3300300: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_cercsd
+    3300302: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_tiresd
+    3300304: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettaant
+    3300306: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost
+    3300308: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost1
+    3300310: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost2
+    3300312: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost3
+    3300314: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost4
+    3300316: M346attack_Simmetria_Oggetto_Nullo4_cbu_attacco
+    3300318: M346attack_Simmetria_Oggetto_Nullo4_cbu_backbomb
+    3300320: M346attack_Simmetria_Oggetto_Nullo4_cbu_bomb
+    3300322: M346attack_Simmetria_Oggetto_Nullo4_cbu_Cilindro1
+    3300324: M346attack_Simmetria_Oggetto_Nullo4_cbu_puntat
+    3300326: M346attack_Simmetria_Oggetto_Nullo4_tankG_tank
+    3300328: M346attack_Simmetria_Oggetto_Nullo4_tankG_tankwing
+    3300330: M346attack_sniper_sniper1
+    3300332: M346attack_sniper_sniperglass
+    4300000: M346attack_antenna
+    4300002: M346attack_armi irisT1 aletta
+    4300004: M346attack_armi irisT1 aletta1
+    4300006: M346attack_armi irisT1 Cilindro4
+    4300008: M346attack_armi irisT1 sostiris2
+    4300010: M346attack_blkpcs
+    4300012: M346attack_Cilindro
+    4300014: M346attack_Cilindro2
+    4300016: M346attack_fuelarmG fuelarm
+    4300018: M346attack_fuelarmG fuelarm1
+    4300020: M346attack_fuelarmG fuelarm11
+    4300022: M346attack_fuelarmG fuelarm2
+    4300024: M346attack_GRantG frontlightG1 frontlight1
+    4300026: M346attack_GRantG frontlightG1 frontlightgls1
+    4300028: M346attack_GRantG grantferm
+    4300030: M346attack_GRantG Oggetto_Nullo2 cercant
+    4300032: M346attack_GRantG Oggetto_Nullo2 tireant
+    4300034: M346attack_intkblk
+    4300036: M346attack_iristip irisT aletta2
+    4300038: M346attack_iristip irisT aletta3
+    4300040: M346attack_iristip irisT Cilindro5
+    4300042: M346attack_iristip sostgnoirisG sostiris
+    4300044: M346attack_iristip sostgnoirisG sostiris1
+    4300046: M346attack_lighttop
+    4300048: M346attack_Oggetto_Nullo8 alrn
+    4300050: M346attack_Oggetto_Nullo8 body
+    4300052: M346attack_Oggetto_Nullo8 bodyint
+    4300054: M346attack_Oggetto_Nullo8 doorfw1
+    4300056: M346attack_Oggetto_Nullo8 glass
+    4300058: M346attack_Oggetto_Nullo8 glassframe
+    4300060: M346attack_Oggetto_Nullo8 intdr
+    4300062: M346attack_Oggetto_Nullo8 intk
+    4300064: M346attack_Oggetto_Nullo8 intk2
+    4300066: M346attack_Oggetto_Nullo8 nose
+    4300068: M346attack_Oggetto_Nullo8 ruddeepiece
+    4300070: M346attack_Oggetto_Nullo8 rudder
+    4300072: M346attack_Oggetto_Nullo8 Simmetria4 doorside doorfw
+    4300074: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr
+    4300076: M346attack_Oggetto_Nullo8 Simmetria4 doorside sddr2
+    4300078: M346attack_Oggetto_Nullo8 wings
+    4300080: M346attack_Oggetto_Nullo8 winhlet
+    4300082: M346attack_pcswing
+    4300084: M346attack_piecs
+    4300086: M346attack_pilots interno aimglass1
+    4300088: M346attack_pilots interno cockpit
+    4300090: M346attack_pilots interno pilot mask
+    4300092: M346attack_pilots interno pilot Oggetto_Nullo7 casco
+    4300094: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      mask1
+    4300096: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visiera
+    4300098: M346attack_pilots interno pilot Oggetto_Nullo7 Simmetria2 Oggetto_Nullo9
+      visieresterna
+    4300100: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 belts
+    4300102: M346attack_pilots interno pilot Simmetria5 Oggetto_Nullo5 pilot1
+    4300104: M346attack_pilots interno seat
+    4300106: M346attack_pilots interno seatbr
+    4300108: M346attack_pilots interno1 aimglass
+    4300110: M346attack_pilots interno1 cockpit1
+    4300112: M346attack_pilots interno1 pilot2 mask2
+    4300114: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 casco1
+    4300116: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      mask3
+    4300118: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visiera1
+    4300120: M346attack_pilots interno1 pilot2 Oggetto_Nullo3 Simmetria6 Oggetto_Nullo
+      visieresterna1
+    4300122: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 belts1
+    4300124: M346attack_pilots interno1 pilot2 Simmetria3 Oggetto_Nullo1 pilot3
+    4300126: M346attack_pilots interno1 seat1
+    4300128: M346attack_pilots interno1 seatbr1
+    4300130: M346attack_Simmetria Oggetto_Nullo4 cbu alettaant
+    4300132: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost
+    4300134: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost1
+    4300136: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost2
+    4300138: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost3
+    4300140: M346attack_Simmetria Oggetto_Nullo4 cbu alettapost4
+    4300142: M346attack_Simmetria Oggetto_Nullo4 cbu attacco
+    4300144: M346attack_Simmetria Oggetto_Nullo4 cbu backbomb
+    4300146: M346attack_Simmetria Oggetto_Nullo4 cbu bomb
+    4300148: M346attack_Simmetria Oggetto_Nullo4 cbu Cilindro1
+    4300150: M346attack_Simmetria Oggetto_Nullo4 cbu puntat
+    4300152: M346attack_Simmetria Oggetto_Nullo4 tankG tank
+    4300154: M346attack_Simmetria Oggetto_Nullo4 tankG tankwing
+    4300156: M346attack_Simmetria1 lGRsdG Cilindro3
+    4300158: M346attack_Simmetria1 lGRsdG frontlightG frontlight
+    4300160: M346attack_Simmetria1 lGRsdG frontlightG frontlightgls
+    4300162: M346attack_Simmetria1 lGRsdG leggrside
+    4300164: M346attack_Simmetria1 lGRsdG legsdrng
+    4300166: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 cercsd
+    4300168: M346attack_Simmetria1 lGRsdG Oggetto_Nullo6 tiresd
+    4300170: M346attack_sniper sniper1
+    4300172: M346attack_sniper sniperglass
+    4300174: M346attack_sostwing
+    4300176: M346attack_armi_irisT1_aletta
+    4300178: M346attack_armi_irisT1_aletta1
+    4300180: M346attack_armi_irisT1_Cilindro4
+    4300182: M346attack_armi_irisT1_sostiris2
+    4300184: M346attack_fuelarmG_fuelarm
+    4300186: M346attack_fuelarmG_fuelarm1
+    4300188: M346attack_fuelarmG_fuelarm11
+    4300190: M346attack_fuelarmG_fuelarm2
+    4300192: M346attack_GRantG_frontlightG1_frontlight1
+    4300194: M346attack_GRantG_frontlightG1_frontlightgls1
+    4300196: M346attack_GRantG_grantferm
+    4300198: M346attack_GRantG_Oggetto_Nullo2_cercant
+    4300200: M346attack_GRantG_Oggetto_Nullo2_tireant
+    4300202: M346attack_iristip_irisT_aletta2
+    4300204: M346attack_iristip_irisT_aletta3
+    4300206: M346attack_iristip_irisT_Cilindro5
+    4300208: M346attack_iristip_sostgnoirisG_sostiris
+    4300210: M346attack_iristip_sostgnoirisG_sostiris1
+    4300212: M346attack_Oggetto_Nullo8_alrn
+    4300214: M346attack_Oggetto_Nullo8_body
+    4300216: M346attack_Oggetto_Nullo8_bodyint
+    4300218: M346attack_Oggetto_Nullo8_doorfw1
+    4300220: M346attack_Oggetto_Nullo8_glass
+    4300222: M346attack_Oggetto_Nullo8_glassframe
+    4300224: M346attack_Oggetto_Nullo8_intdr
+    4300226: M346attack_Oggetto_Nullo8_intk
+    4300228: M346attack_Oggetto_Nullo8_intk2
+    4300230: M346attack_Oggetto_Nullo8_nose
+    4300232: M346attack_Oggetto_Nullo8_ruddeepiece
+    4300234: M346attack_Oggetto_Nullo8_rudder
+    4300236: M346attack_Oggetto_Nullo8_Simmetria4_doorside_doorfw
+    4300238: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr
+    4300240: M346attack_Oggetto_Nullo8_Simmetria4_doorside_sddr2
+    4300242: M346attack_Oggetto_Nullo8_wings
+    4300244: M346attack_Oggetto_Nullo8_winhlet
+    4300246: M346attack_pilots_interno1_aimglass
+    4300248: M346attack_pilots_interno1_cockpit1
+    4300250: M346attack_pilots_interno1_pilot2_mask2
+    4300252: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_casco1
+    4300254: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_mask3
+    4300256: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visiera1
+    4300258: M346attack_pilots_interno1_pilot2_Oggetto_Nullo3_Simmetria6_Oggetto_Nullo_visieresterna1
+    4300260: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_belts1
+    4300262: M346attack_pilots_interno1_pilot2_Simmetria3_Oggetto_Nullo1_pilot3
+    4300264: M346attack_pilots_interno1_seat1
+    4300266: M346attack_pilots_interno1_seatbr1
+    4300268: M346attack_pilots_interno_aimglass1
+    4300270: M346attack_pilots_interno_cockpit
+    4300272: M346attack_pilots_interno_pilot_mask
+    4300274: M346attack_pilots_interno_pilot_Oggetto_Nullo7_casco
+    4300276: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_mask1
+    4300278: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visiera
+    4300280: M346attack_pilots_interno_pilot_Oggetto_Nullo7_Simmetria2_Oggetto_Nullo9_visieresterna
+    4300282: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_belts
+    4300284: M346attack_pilots_interno_pilot_Simmetria5_Oggetto_Nullo5_pilot1
+    4300286: M346attack_pilots_interno_seat
+    4300288: M346attack_pilots_interno_seatbr
+    4300290: M346attack_Simmetria1_lGRsdG_Cilindro3
+    4300292: M346attack_Simmetria1_lGRsdG_frontlightG_frontlight
+    4300294: M346attack_Simmetria1_lGRsdG_frontlightG_frontlightgls
+    4300296: M346attack_Simmetria1_lGRsdG_leggrside
+    4300298: M346attack_Simmetria1_lGRsdG_legsdrng
+    4300300: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_cercsd
+    4300302: M346attack_Simmetria1_lGRsdG_Oggetto_Nullo6_tiresd
+    4300304: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettaant
+    4300306: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost
+    4300308: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost1
+    4300310: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost2
+    4300312: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost3
+    4300314: M346attack_Simmetria_Oggetto_Nullo4_cbu_alettapost4
+    4300316: M346attack_Simmetria_Oggetto_Nullo4_cbu_attacco
+    4300318: M346attack_Simmetria_Oggetto_Nullo4_cbu_backbomb
+    4300320: M346attack_Simmetria_Oggetto_Nullo4_cbu_bomb
+    4300322: M346attack_Simmetria_Oggetto_Nullo4_cbu_Cilindro1
+    4300324: M346attack_Simmetria_Oggetto_Nullo4_cbu_puntat
+    4300326: M346attack_Simmetria_Oggetto_Nullo4_tankG_tank
+    4300328: M346attack_Simmetria_Oggetto_Nullo4_tankG_tankwing
+    4300330: M346attack_sniper_sniper1
+    4300332: M346attack_sniper_sniperglass
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0399999991
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

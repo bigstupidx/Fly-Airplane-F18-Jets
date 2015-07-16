@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: de4461c45898db041af7f60a1b73fa59
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: base_20 1
+    100004: Box270
+    100006: Box271
+    100008: Box272
+    100010: container_045
+    100012: container_046
+    100014: container_047
+    100016: container_048
+    100018: container_049
+    100020: container_050
+    100022: container_051
+    100024: container_052
+    100026: container_053
+    100028: container_054
+    100030: container_055
+    100032: container_056
+    100034: container_group004
+    100036: container_group005
+    100038: Cylinder226
+    100040: Cylinder227
+    100042: Cylinder228
+    100044: Plane098
+    400000: //RootNode
+    400002: base_20 1
+    400004: Box270
+    400006: Box271
+    400008: Box272
+    400010: container_045
+    400012: container_046
+    400014: container_047
+    400016: container_048
+    400018: container_049
+    400020: container_050
+    400022: container_051
+    400024: container_052
+    400026: container_053
+    400028: container_054
+    400030: container_055
+    400032: container_056
+    400034: container_group004
+    400036: container_group005
+    400038: Cylinder226
+    400040: Cylinder227
+    400042: Cylinder228
+    400044: Plane098
+    2300000: base_20 1
+    2300002: Box270
+    2300004: Box271
+    2300006: Box272
+    2300008: container_045
+    2300010: container_046
+    2300012: container_047
+    2300014: container_048
+    2300016: container_049
+    2300018: container_050
+    2300020: container_051
+    2300022: container_052
+    2300024: container_053
+    2300026: container_054
+    2300028: container_055
+    2300030: container_056
+    2300032: Cylinder226
+    2300034: Cylinder227
+    2300036: Cylinder228
+    2300038: Plane098
+    3300000: base_20 1
+    3300002: Box270
+    3300004: Box271
+    3300006: Box272
+    3300008: container_045
+    3300010: container_046
+    3300012: container_047
+    3300014: container_048
+    3300016: container_049
+    3300018: container_050
+    3300020: container_051
+    3300022: container_052
+    3300024: container_053
+    3300026: container_054
+    3300028: container_055
+    3300030: container_056
+    3300032: Cylinder226
+    3300034: Cylinder227
+    3300036: Cylinder228
+    3300038: Plane098
+    4300000: base_20
+    4300002: Plane098
+    4300004: Box270
+    4300006: Cylinder226
+    4300008: Box271
+    4300010: Cylinder227
+    4300012: Cylinder228
+    4300014: container_045
+    4300016: container_046
+    4300018: container_047
+    4300020: container_048
+    4300022: container_049
+    4300024: container_050
+    4300026: container_051
+    4300028: container_052
+    4300030: container_053
+    4300032: container_054
+    4300034: container_055
+    4300036: container_056
+    4300038: Box272
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

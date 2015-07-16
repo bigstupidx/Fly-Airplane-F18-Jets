@@ -1,0 +1,858 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: DataTGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 23: {fileID: 2300000}
+  - 102: {fileID: 10200000}
+  m_Layer: 5
+  m_Name: New Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 6.78686666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.06008244, y: -58.4162445, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 0
+--- !u!23 &2300000
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!102 &10200000
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Text: Hello World
+  m_OffsetZ: 0
+  m_CharacterSize: .159999996
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 37
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33524e1b6cd834c90bb79719c9255cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelectedPlane: 1
+  PlanesInfo:
+  - ID: 1
+    Name: F-18
+    FullName: F-18 Fighting Falcon
+    Speed: 4
+    Control: 4
+    Acceleration: 4
+    Stars: 3
+    Locked: 0
+    Buyout: 0
+    BuyBack: 10
+  - ID: 2
+    Name: FA-22
+    FullName: F-22 Raptor
+    Speed: 4
+    Control: 5
+    Acceleration: 4
+    Stars: 3
+    Locked: 1
+    Buyout: 1
+    BuyBack: 100
+  - ID: 3
+    Name: FA-38
+    FullName: FA-38 Lightning III
+    Speed: 5
+    Control: 4
+    Acceleration: 5
+    Stars: 3
+    Locked: 1
+    Buyout: 1
+    BuyBack: 1000
+  SelectedMissionID: 1
+  Missions:
+  - MissionTitle: Take To The Skies
+    MissionText: Destroy the Enemy Camp
+    Distance: 55562
+    Payment: 2222
+    Blocked: 0
+    Targets:
+    - ID: 29
+      Position: {x: -10464.9258, y: 2.42094493, z: -14696.4033}
+      Name: Hodor
+      Objective: Destroy the Enemy Camp
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Enemy Lines
+    MissionText: Destroy the Enemy Base
+    Distance: 30011
+    Payment: 1200
+    Blocked: 1
+    Targets:
+    - ID: 27
+      Position: {x: 3864.43359, y: 125.007622, z: -8562.86328}
+      Name: Bled
+      Objective: Destroy the Enemy Base
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Radios
+    MissionText: Destroy the Enemy Radio
+    Distance: 33809
+    Payment: 1352
+    Blocked: 1
+    Targets:
+    - ID: 30
+      Position: {x: 2336.77759, y: 139.745941, z: -10043.8428}
+      Name: Captain Black
+      Objective: Destroy the Enemy Radio
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Industrial
+    MissionText: Destroy the Enemy Factory
+    Distance: 20014
+    Payment: 800
+    Blocked: 1
+    Targets:
+    - ID: 21
+      Position: {x: 11925.5615, y: 17.9758205, z: -3575.63281}
+      Name: Olich base
+      Objective: Destroy the Enemy Factory
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Communications
+    MissionText: Destroy the Enemy Radio
+    Distance: 17554
+    Payment: 702
+    Blocked: 1
+    Targets:
+    - ID: 18
+      Position: {x: 14424.1572, y: 240.275528, z: -549.752441}
+      Name: Bleketed
+      Objective: Destroy the Enemy Radio
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Hillside
+    MissionText: Destroy the Enemy Submarines
+    Distance: 35031
+    Payment: 1401
+    Blocked: 1
+    Targets:
+    - ID: 25
+      Position: {x: -5144.85742, y: 35.0058022, z: 16955.1387}
+      Name: Everybody
+      Objective: Destroy the Enemy Submarines
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Nuclear
+    MissionText: Destroy the Enemy Nuclear Power Plant
+    Distance: 34344
+    Payment: 1373
+    Blocked: 1
+    Targets:
+    - ID: 24
+      Position: {x: -759.08667, y: 41.7013397, z: -8807.00195}
+      Name: Island
+      Objective: Destroy the Enemy Nuclear Power Plant
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Concealed
+    MissionText: Destroy the Enemy Camp
+    Distance: 48786
+    Payment: 1951
+    Blocked: 1
+    Targets:
+    - ID: 20
+      Position: {x: -13840.3857, y: 139.745941, z: -4411.47021}
+      Name: Captain Black
+      Objective: Destroy the Enemy Camp
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Rig
+    MissionText: Destroy the Enemy Rig and Enemy Dome
+    Distance: 49460
+    Payment: 1978
+    Blocked: 1
+    Targets:
+    - ID: 26
+      Position: {x: 11152.7354, y: 30.9947777, z: 15068.8701}
+      Name: Lord Voldemort
+      Objective: Destroy the Enemy Rig
+    - ID: 27
+      Position: {x: 3864.43359, y: 125.007622, z: -8562.86328}
+      Name: Bled
+      Objective: Destroy the Enemy Dome
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Islands
+    MissionText: Destroy the Enemy Observation Facility and Barracks
+    Distance: 74224
+    Payment: 2968
+    Blocked: 1
+    Targets:
+    - ID: 17
+      Position: {x: -1100.05847, y: 125.007622, z: 18175.9141}
+      Name: Bled
+      Objective: Destroy the Enemy Observation Facility
+    - ID: 31
+      Position: {x: -18204.0703, y: 17.9758205, z: -5997.74951}
+      Name: Olich base
+      Objective: Destroy the Enemy Barracks
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Cliffside
+    MissionText: Destroy the Enemy Nuclear Power Plant and Camp
+    Distance: 61264
+    Payment: 2450
+    Blocked: 1
+    Targets:
+    - ID: 34
+      Position: {x: -8056.40967, y: 41.7013397, z: 1738.578}
+      Name: Island
+      Objective: Destroy the Enemy Nuclear Power Plant
+    - ID: 29
+      Position: {x: -10464.9258, y: 2.42094493, z: -14696.4033}
+      Name: Hodor
+      Objective: Destroy the Enemy Camp
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Long Haul
+    MissionText: Destroy the Enemy Ship and Barracks
+    Distance: 66720
+    Payment: 2668
+    Blocked: 1
+    Targets:
+    - ID: 23
+      Position: {x: 244.916931, y: 156.071335, z: -10975.207}
+      Name: Quarterblad
+      Objective: Destroy the Enemy Ship
+    - ID: 31
+      Position: {x: -18204.0703, y: 17.9758205, z: -5997.74951}
+      Name: Olich base
+      Objective: Destroy the Enemy Barracks
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Over and Under
+    MissionText: Destroy the Enemy Camp and Observation Facility
+    Distance: 64512
+    Payment: 2580
+    Blocked: 1
+    Targets:
+    - ID: 20
+      Position: {x: -13840.3857, y: 139.745941, z: -4411.47021}
+      Name: Captain Black
+      Objective: Destroy the Enemy Camp
+    - ID: 19
+      Position: {x: -13368.2891, y: 2.42094541, z: -14696.4033}
+      Name: Hodor
+      Objective: Destroy the Enemy Observation Facility
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Base Camp
+    MissionText: Destroy the Enemy Camp, Submarines and Factory
+    Distance: 66759
+    Payment: 2670
+    Blocked: 1
+    Targets:
+    - ID: 29
+      Position: {x: -10464.9258, y: 2.42094493, z: -14696.4033}
+      Name: Hodor
+      Objective: Destroy the Enemy Camp
+    - ID: 33
+      Position: {x: 7488.96582, y: 156.071335, z: 54.0016785}
+      Name: Quarterblad
+      Objective: Destroy the Enemy Submarines
+    - ID: 21
+      Position: {x: 11925.5615, y: 17.9758205, z: -3575.63281}
+      Name: Olich base
+      Objective: Destroy the Enemy Factory
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Vessels
+    MissionText: Destroy the Enemy Ships
+    Distance: 125567
+    Payment: 5022
+    Blocked: 1
+    Targets:
+    - ID: 20
+      Position: {x: -13840.3857, y: 139.745941, z: -4411.47021}
+      Name: Captain Black
+      Objective: Destroy the Enemy Camp
+    - ID: 22
+      Position: {x: 14356.4258, y: 5.42318678, z: 26918.0625}
+      Name: Eiseinhorn
+      Objective: Destroy the Enemy Ship
+    - ID: 23
+      Position: {x: 244.916931, y: 156.071335, z: -10975.207}
+      Name: Quarterblad
+      Objective: Destroy the Enemy Ship
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Stop the Signals
+    MissionText: Destroy the Enemy Ship, Dock and Radios
+    Distance: 78929
+    Payment: 3157
+    Blocked: 1
+    Targets:
+    - ID: 22
+      Position: {x: 14356.4258, y: 5.42318678, z: 26918.0625}
+      Name: Eiseinhorn
+      Objective: Destroy the Enemy Ship
+    - ID: 25
+      Position: {x: -5144.85742, y: 35.0058022, z: 16955.1387}
+      Name: Everybody
+      Objective: Destroy the Enemy Submarines
+    - ID: 18
+      Position: {x: 14424.1572, y: 240.275528, z: -549.752441}
+      Name: Bleketed
+      Objective: Destroy the Enemy Radios
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Production Line
+    MissionText: Destroy the Enemy Bunkers and Factories
+    Distance: 100888
+    Payment: 4035
+    Blocked: 1
+    Targets:
+    - ID: 32
+      Position: {x: 17259.7852, y: 5.42318678, z: 26918.0625}
+      Name: Eiseinhorn
+      Objective: Destroy the Enemy Barracks
+    - ID: 17
+      Position: {x: -1100.05847, y: 125.007622, z: 18175.9141}
+      Name: Bled
+      Objective: Destroy the Enemy Observation Facility
+    - ID: 33
+      Position: {x: 7488.96582, y: 156.071335, z: 54.0016785}
+      Name: Quarterblad
+      Objective: Destroy the Enemy Submarines
+    - ID: 35
+      Position: {x: -2146.24927, y: 35.0058022, z: 18640.5625}
+      Name: Everybody
+      Objective: Destroy the Enemy Factory
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Going the Distance
+    MissionText: Destroy the Enemy Docks and Bunkers
+    Distance: 163343
+    Payment: 6533
+    Blocked: 1
+    Targets:
+    - ID: 26
+      Position: {x: 11153.7354, y: 30.9947777, z: 15068.8701}
+      Name: Lord Voldemort
+      Objective: Destroy the Enemy Rig
+    - ID: 20
+      Position: {x: -13843.3857, y: 139.745941, z: -4411.47021}
+      Name: Captain Black
+      Objective: Destroy the Enemy Base Camp
+    - ID: 32
+      Position: {x: 17259.7852, y: 5.42318678, z: 26918.0625}
+      Name: Eiseinhorn
+      Objective: Destroy the Enemy Barracks
+    - ID: 29
+      Position: {x: -10464.9258, y: 2.42094493, z: -14696.4033}
+      Name: Hodor
+      Objective: Destroy the Enemy Base Camp
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Land and Sea
+    MissionText: Destroy the Enemy Facilities and Docks
+    Distance: 81610
+    Payment: 3264
+    Blocked: 1
+    Targets:
+    - ID: 19
+      Position: {x: 14356.4297, y: 5.42318678, z: 26918.0605}
+      Name: Eiseinhorn
+      Objective: Destroy the Enemy Observation Facility
+    - ID: 22
+      Position: {x: -13368.2891, y: 2.42094541, z: -14696.4033}
+      Name: Hodor
+      Objective: Destroy the Enemy Ship
+    - ID: 28
+      Position: {x: -6742.26074, y: 240.275528, z: 3637.39429}
+      Name: Bleketed
+      Objective: Destroy the Enemy Rig
+    - ID: 35
+      Position: {x: -2146.24927, y: 35.0058022, z: 18640.5625}
+      Name: Everybody
+      Objective: Destroy the Enemy Factory
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+  - MissionTitle: Finish Them
+    MissionText: Destroy the Remaining Enemy Facilities
+    Distance: 65519
+    Payment: 2620
+    Blocked: 1
+    Targets:
+    - ID: 35
+      Position: {x: -2146.24927, y: 35.0058022, z: 18640.5625}
+      Name: Everybody
+      Objective: Destroy the Enemy Factory
+    - ID: 17
+      Position: {x: -1100.05847, y: 125.007622, z: 18175.9141}
+      Name: Bled
+      Objective: Destroy the Enemy Observation Facility
+    - ID: 23
+      Position: {x: 244.916931, y: 156.071335, z: -10975.207}
+      Name: Quarterblad
+      Objective: Destroy the Enemy Ship
+    - ID: 19
+      Position: {x: 14356.4297, y: 5.42318678, z: 26918.0605}
+      Name: Quarterblad
+      Objective: Destroy the Enemy Observation Facility
+    - ID: -1
+      Position: {x: 0, y: 0, z: 0}
+      Name: Unnamed
+      Objective: Objective
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e93c222dbd445069276e740b6c3135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeathPS: {fileID: 100000, guid: 7b128c8309f5a4ad1be8e0d51053e576, type: 2}
+  PlaneDeathPS: {fileID: 100000, guid: 67b9e88b9a76f45d6af4f5adc150bfb3, type: 2}
+  ViewZoneDistance: 2000
+  BaseDestroyPSPrefab: {fileID: 100000, guid: 7b128c8309f5a4ad1be8e0d51053e576, type: 2}
+  RocketPrefab: {fileID: 100000, guid: 03c563d94147d462886ef85584608fdb, type: 2}
+  MissionIslandsID:
+  - ID: 0
+    Position: {x: -1246.03442, y: 0, z: -9259.86133}
+    Name: Somewhere
+    Objective: Objective
+  - ID: 1
+    Position: {x: 14002.4727, y: 0, z: -1286.33008}
+    Name: Olker
+    Objective: Objective
+  - ID: 2
+    Position: {x: -14281.7637, y: 0, z: -4758.71045}
+    Name: Captain
+    Objective: Objective
+  - ID: 3
+    Position: {x: 11833.041, y: 0, z: -4137.53857}
+    Name: KHAI
+    Objective: Objective
+  - ID: 4
+    Position: {x: -6015.70117, y: 0, z: 16152.0996}
+    Name: Dies
+    Objective: Objective
+  - ID: 5
+    Position: {x: -1896.04822, y: 0, z: 17485.1289}
+    Name: Oly
+    Objective: Objective
+  - ID: 6
+    Position: {x: -342.004944, y: 0, z: -11438.3281}
+    Name: Burbridge
+    Objective: Objective
+  - ID: 7
+    Position: {x: 10319.5811, y: 0, z: 14731.7402}
+    Name: Death Star
+    Objective: Objective
+  - ID: 8
+    Position: {x: 7981.05859, y: 0, z: 5266.85059}
+    Name: Norad III
+    Objective: Objective
+  - ID: 9
+    Position: {x: -8543.35742, y: 0, z: 1285.71912}
+    Name: Somewhere
+    Objective: Objective
+  - ID: 10
+    Position: {x: -7163.94531, y: 0, z: 2900.81665}
+    Name: Olker
+    Objective: Objective
+  - ID: 11
+    Position: {x: 1895.39966, y: 0, z: -10391.083}
+    Name: Captain
+    Objective: Objective
+  - ID: 12
+    Position: {x: -18296.5898, y: 0, z: -6559.65527}
+    Name: KHAI
+    Objective: Objective
+  - ID: 13
+    Position: {x: -3017.09302, y: 0, z: 17837.5234}
+    Name: Dies
+    Objective: Objective
+  - ID: 14
+    Position: {x: 3068.44385, y: 0, z: -9253.64844}
+    Name: Oly
+    Objective: Objective
+  - ID: 15
+    Position: {x: 6902.04395, y: 0, z: -409.119415}
+    Name: Burbridge
+    Objective: Objective
+  - ID: 16
+    Position: {x: -6624.75, y: 0, z: 8703.08594}
+    Name: Death Star
+    Objective: Objective
+  MissionRunwaysID:
+  - ID: 37
+    Position: {x: 8329.11133, y: 40, z: 5763.11768}
+    Name: Run
+    Objective: Objective
+  MissionTransportsID: []
+  MissionBasesID:
+  - ID: 17
+    Position: {x: -1100.05847, y: 125.007622, z: 18175.9141}
+    Name: Bled
+    Objective: Objective
+  - ID: 18
+    Position: {x: 14424.1572, y: 240.275528, z: -549.752441}
+    Name: Bleketed
+    Objective: Objective
+  - ID: 19
+    Position: {x: -13368.2891, y: 2.42094541, z: -14696.4033}
+    Name: Hodor
+    Objective: Objective
+  - ID: 20
+    Position: {x: -13840.3857, y: 139.745941, z: -4411.47021}
+    Name: Captain Black
+    Objective: Objective
+  - ID: 21
+    Position: {x: 11925.5615, y: 17.9758205, z: -3575.63281}
+    Name: Olich base
+    Objective: Objective
+  - ID: 22
+    Position: {x: 14356.4258, y: 5.42318678, z: 26918.0625}
+    Name: Eiseinhorn
+    Objective: Objective
+  - ID: 23
+    Position: {x: 244.916931, y: 156.071335, z: -10975.207}
+    Name: Quarterblad
+    Objective: Objective
+  - ID: 24
+    Position: {x: -759.08667, y: 41.7013397, z: -8807.00195}
+    Name: Island
+    Objective: Objective
+  - ID: 25
+    Position: {x: -5144.85742, y: 35.0058022, z: 16955.1387}
+    Name: Everybody
+    Objective: Objective
+  - ID: 26
+    Position: {x: 11152.7354, y: 30.9947777, z: 15068.8701}
+    Name: Lord Voldemort
+    Objective: Objective
+  - ID: 27
+    Position: {x: 3864.43359, y: 125.007622, z: -8562.86328}
+    Name: Bled
+    Objective: Objective
+  - ID: 28
+    Position: {x: -6742.26074, y: 240.275528, z: 3637.39429}
+    Name: Bleketed
+    Objective: Objective
+  - ID: 29
+    Position: {x: -10464.9258, y: 2.42094493, z: -14696.4033}
+    Name: Hodor
+    Objective: Objective
+  - ID: 30
+    Position: {x: 2336.77759, y: 139.745941, z: -10043.8428}
+    Name: Captain Black
+    Objective: Objective
+  - ID: 31
+    Position: {x: -18204.0703, y: 17.9758205, z: -5997.74951}
+    Name: Olich base
+    Objective: Objective
+  - ID: 32
+    Position: {x: 17259.7852, y: 5.42318678, z: 26918.0625}
+    Name: Eiseinhorn
+    Objective: Objective
+  - ID: 33
+    Position: {x: 7488.96582, y: 156.071335, z: 54.0016785}
+    Name: Quarterblad
+    Objective: Objective
+  - ID: 34
+    Position: {x: -8056.40967, y: 41.7013397, z: 1738.578}
+    Name: Island
+    Objective: Objective
+  - ID: 35
+    Position: {x: -2146.24927, y: 35.0058022, z: 18640.5625}
+    Name: Everybody
+    Objective: Objective
+  - ID: 36
+    Position: {x: -5791.5957, y: 30.9947777, z: 9040.21582}
+    Name: Lord Voldemort
+    Objective: Objective
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: SelectedMissionID
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

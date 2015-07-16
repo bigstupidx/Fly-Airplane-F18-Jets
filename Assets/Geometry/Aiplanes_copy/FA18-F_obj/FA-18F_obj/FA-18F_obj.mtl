@@ -1,0 +1,314 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5.5 5.5.4.2708 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl _
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd F-18F-01.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS S18-01.png
+map_kA 
+map_Ns 
+
+newmtl Glass
+Ka 0 0 0
+Kd 0.0588235 0.0588235 0.0588235
+Ks 1 1 1
+illum 2
+Ns 256
+d 0.22
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl k
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 16
+map_Kd BLACK.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl grid
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 4
+map_Kd GRID.png
+map_bump 
+bump 
+map_opacity G-ALPHA.png
+map_d G-ALPHA.png
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _0
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd F-18F-03.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS S18-03.png
+map_kA 
+map_Ns 
+
+newmtl tank
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 32
+map_Kd TANK.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Glassgreen_E
+Ka 0 0 0
+Kd 0 0.235294 0.2
+Ks 1 1 1
+illum 2
+Ns 256
+d 0.42
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl g
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 16
+map_Kd GREY.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl naces
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd NACES.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS NACES-S.png
+map_kA 
+map_Ns 
+
+newmtl _1
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd F-18F-02.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS S18-02.png
+map_kA 
+map_Ns 
+
+newmtl _2
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd F-18F-05.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS S18-04.png
+map_kA 
+map_Ns 
+
+newmtl GlassRed
+Ka 0 0 0
+Kd 0.270588 0 0
+Ks 1 0 0
+illum 2
+Ns 256
+d 0.73
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl _3
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd F-18F-04.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS S18-04.png
+map_kA 
+map_Ns 
+
+newmtl aim9
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 32
+map_Kd AIM9.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl GlassGold
+Ka 0 0 0
+Kd 0.647059 0.529412 0.0588235
+Ks 1 0.87451 0.439216
+illum 2
+Ns 256
+d 0.31
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl gbu12
+Ka 0.584314 0.584314 0.584314
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 4
+map_Kd GBU12.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl aim120
+Ka 0.584314 0.584314 0.584314
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 32
+map_Kd AIM120.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl gbu38
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 0.898039 0.898039 0.898039
+illum 2
+Ns 4
+map_Kd GBU38.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl flir
+Ka 0.588235 0.588235 0.588235
+Kd 1 1 1
+Ks 1 1 1
+illum 2
+Ns 32
+map_Kd ATFLIR.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS ATFLIR-S.png
+map_kA 
+map_Ns 

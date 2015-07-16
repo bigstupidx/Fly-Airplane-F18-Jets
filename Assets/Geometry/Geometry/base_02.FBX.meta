@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 503b255e881263a45b15e03d53ad34ea
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bilding
+    100004: 'Bunkers '
+    100006: fence_1
+    100008: ground
+    100010: hammer_g_001
+    100012: hammer_g_002
+    100014: hammer_g_003
+    100016: hammer_g_004
+    100018: machine
+    100020: smdimport034
+    100022: smdimport035
+    100024: smdimport036
+    100026: smdimport037
+    100028: smdimport038
+    100030: smdimport039
+    100032: smdimport040
+    100034: smdimport041
+    100036: tank
+    100038: tent_01
+    100040: tent_02
+    100042: tent_03
+    100044: tent_04
+    100046: tent_05
+    100048: tent_06
+    100050: tent_07
+    100052: tent_07 1
+    100054: tent_08
+    100056: tent_group
+    100058: tower_01
+    100060: tower_02
+    100062: tower_03
+    100064: tower_04
+    100066: tower_05
+    100068: tower_06
+    100070: tower_group
+    100072: bilding001
+    100074: fence_2_072
+    400000: //RootNode
+    400002: bilding
+    400004: 'Bunkers '
+    400006: fence_1
+    400008: ground
+    400010: hammer_g_001
+    400012: hammer_g_002
+    400014: hammer_g_003
+    400016: hammer_g_004
+    400018: machine
+    400020: smdimport034
+    400022: smdimport035
+    400024: smdimport036
+    400026: smdimport037
+    400028: smdimport038
+    400030: smdimport039
+    400032: smdimport040
+    400034: smdimport041
+    400036: tank
+    400038: tent_01
+    400040: tent_02
+    400042: tent_03
+    400044: tent_04
+    400046: tent_05
+    400048: tent_06
+    400050: tent_07
+    400052: tent_07 1
+    400054: tent_08
+    400056: tent_group
+    400058: tower_01
+    400060: tower_02
+    400062: tower_03
+    400064: tower_04
+    400066: tower_05
+    400068: tower_06
+    400070: tower_group
+    400072: bilding001
+    400074: fence_2_072
+    2300000: bilding
+    2300002: 'Bunkers '
+    2300004: fence_1
+    2300006: ground
+    2300008: smdimport034
+    2300010: smdimport035
+    2300012: smdimport036
+    2300014: smdimport037
+    2300016: smdimport038
+    2300018: smdimport039
+    2300020: smdimport040
+    2300022: smdimport041
+    2300024: tank
+    2300026: tent_01
+    2300028: tent_02
+    2300030: tent_03
+    2300032: tent_04
+    2300034: tent_05
+    2300036: tent_06
+    2300038: tent_07
+    2300040: tent_07 1
+    2300042: tent_08
+    2300044: tower_01
+    2300046: tower_02
+    2300048: tower_03
+    2300050: tower_04
+    2300052: tower_05
+    2300054: tower_06
+    2300056: bilding001
+    2300058: fence_2_072
+    3300000: bilding
+    3300002: 'Bunkers '
+    3300004: fence_1
+    3300006: ground
+    3300008: smdimport034
+    3300010: smdimport035
+    3300012: smdimport036
+    3300014: smdimport037
+    3300016: smdimport038
+    3300018: smdimport039
+    3300020: smdimport040
+    3300022: smdimport041
+    3300024: tank
+    3300026: tent_01
+    3300028: tent_02
+    3300030: tent_03
+    3300032: tent_04
+    3300034: tent_05
+    3300036: tent_06
+    3300038: tent_07
+    3300040: tent_07 1
+    3300042: tent_08
+    3300044: tower_01
+    3300046: tower_02
+    3300048: tower_03
+    3300050: tower_04
+    3300052: tower_05
+    3300054: tower_06
+    3300056: bilding001
+    3300058: fence_2_072
+    4300000: fence_1
+    4300002: bilding
+    4300004: ground
+    4300006: tower_06
+    4300008: tower_01
+    4300010: tower_02
+    4300012: tower_03
+    4300014: tower_04
+    4300016: tower_05
+    4300018: tent_08
+    4300020: tent_07
+    4300022: tent_07
+    4300024: tent_01
+    4300026: tent_02
+    4300028: tent_03
+    4300030: tent_04
+    4300032: tent_05
+    4300034: tent_06
+    4300036: 'Bunkers '
+    4300038: smdimport040
+    4300040: smdimport041
+    4300042: smdimport035
+    4300044: smdimport034
+    4300046: smdimport036
+    4300048: smdimport037
+    4300050: smdimport038
+    4300052: smdimport039
+    4300054: tank
+    4300056: bilding001
+    4300058: fence_2_072
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

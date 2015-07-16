@@ -1,0 +1,109 @@
+fileFormatVersion: 2
+guid: 974cbd9cccae5d549ae0a10a342f7a2f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: OldTower
+    100004: OldTowerDoor01
+    100006: OldTowerDoor02
+    100008: OldTower [OldTower]
+    100010: OldTower [OldTowerDoor01]
+    100012: OldTower [OldTowerDoor02]
+    100014: Camera
+    100016: Light
+    100018: OldTower:OldTower
+    100020: OldTower:OldTowerDoor01
+    100022: OldTower:OldTowerDoor02
+    400000: //RootNode
+    400002: OldTower
+    400004: OldTowerDoor01
+    400006: OldTowerDoor02
+    400008: OldTower [OldTower]
+    400010: OldTower [OldTowerDoor01]
+    400012: OldTower [OldTowerDoor02]
+    400014: Camera
+    400016: Light
+    400018: OldTower:OldTower
+    400020: OldTower:OldTowerDoor01
+    400022: OldTower:OldTowerDoor02
+    2300000: OldTower
+    2300002: OldTowerDoor01
+    2300004: OldTowerDoor02
+    2300006: OldTower [OldTower]
+    2300008: OldTower [OldTowerDoor01]
+    2300010: OldTower [OldTowerDoor02]
+    2300012: OldTower:OldTower
+    2300014: OldTower:OldTowerDoor01
+    2300016: OldTower:OldTowerDoor02
+    3300000: OldTower
+    3300002: OldTowerDoor01
+    3300004: OldTowerDoor02
+    3300006: OldTower [OldTower]
+    3300008: OldTower [OldTowerDoor01]
+    3300010: OldTower [OldTowerDoor02]
+    3300012: OldTower:OldTower
+    3300014: OldTower:OldTowerDoor01
+    3300016: OldTower:OldTowerDoor02
+    4300000: OldTower
+    4300002: OldTowerDoor01
+    4300004: OldTowerDoor02
+    4300006: OldTower [OldTower]
+    4300008: OldTower [OldTowerDoor01]
+    4300010: OldTower [OldTowerDoor02]
+    4300012: OldTower:OldTower
+    4300014: OldTower:OldTowerDoor01
+    4300016: OldTower:OldTowerDoor02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  userData: 

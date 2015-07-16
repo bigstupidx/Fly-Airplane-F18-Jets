@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 4f69b2ee9bbbca842a99460a451ed081
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: COVERLEFT0
+    100002: COVERRIGHT0
+    100004: //RootNode
+    100006: FRONTGEAR
+    100008: LEFTAILERON
+    100010: LEFTAILERON 1
+    100012: LEFTELEVATOR
+    100014: LEFTGEAR
+    100016: 'LEFTLEFTSLAT '
+    100018: 'LEFTSLAT '
+    100020: RIGHTAILERON
+    100022: RIGHTELEVATOR
+    100024: RIGHTGEAR
+    100026: RIGHTRIGHTAILERON
+    100028: RIGHTRIGHTSLAT
+    100030: RIGHTSLAT
+    100032: TOPRUDDER
+    100034: WHEEL0
+    100036: WHEEL1
+    100038: WHEEL2
+    400000: COVERLEFT0
+    400002: COVERRIGHT0
+    400004: //RootNode
+    400006: FRONTGEAR
+    400008: LEFTAILERON
+    400010: LEFTAILERON 1
+    400012: LEFTELEVATOR
+    400014: LEFTGEAR
+    400016: 'LEFTLEFTSLAT '
+    400018: 'LEFTSLAT '
+    400020: RIGHTAILERON
+    400022: RIGHTELEVATOR
+    400024: RIGHTGEAR
+    400026: RIGHTRIGHTAILERON
+    400028: RIGHTRIGHTSLAT
+    400030: RIGHTSLAT
+    400032: TOPRUDDER
+    400034: WHEEL0
+    400036: WHEEL1
+    400038: WHEEL2
+    2300000: COVERLEFT0
+    2300002: COVERRIGHT0
+    2300004: //RootNode
+    2300006: FRONTGEAR
+    2300008: LEFTAILERON
+    2300010: LEFTAILERON 1
+    2300012: LEFTELEVATOR
+    2300014: LEFTGEAR
+    2300016: 'LEFTLEFTSLAT '
+    2300018: 'LEFTSLAT '
+    2300020: RIGHTAILERON
+    2300022: RIGHTELEVATOR
+    2300024: RIGHTGEAR
+    2300026: RIGHTRIGHTAILERON
+    2300028: RIGHTRIGHTSLAT
+    2300030: RIGHTSLAT
+    2300032: TOPRUDDER
+    2300034: WHEEL0
+    2300036: WHEEL1
+    2300038: WHEEL2
+    3300000: COVERLEFT0
+    3300002: COVERRIGHT0
+    3300004: //RootNode
+    3300006: FRONTGEAR
+    3300008: LEFTAILERON
+    3300010: LEFTAILERON 1
+    3300012: LEFTELEVATOR
+    3300014: LEFTGEAR
+    3300016: 'LEFTLEFTSLAT '
+    3300018: 'LEFTSLAT '
+    3300020: RIGHTAILERON
+    3300022: RIGHTELEVATOR
+    3300024: RIGHTGEAR
+    3300026: RIGHTRIGHTAILERON
+    3300028: RIGHTRIGHTSLAT
+    3300030: RIGHTSLAT
+    3300032: TOPRUDDER
+    3300034: WHEEL0
+    3300036: WHEEL1
+    3300038: WHEEL2
+    4300000: HULL
+    4300002: COVERLEFT0
+    4300004: COVERRIGHT0
+    4300006: FRONTGEAR
+    4300008: WHEEL0
+    4300010: LEFTAILERON
+    4300012: LEFTAILERON
+    4300014: LEFTELEVATOR
+    4300016: LEFTGEAR
+    4300018: WHEEL1
+    4300020: 'LEFTLEFTSLAT '
+    4300022: 'LEFTSLAT '
+    4300024: RIGHTAILERON
+    4300026: RIGHTELEVATOR
+    4300028: RIGHTGEAR
+    4300030: WHEEL2
+    4300032: RIGHTRIGHTAILERON
+    4300034: RIGHTRIGHTSLAT
+    4300036: RIGHTSLAT
+    4300038: TOPRUDDER
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,288 @@
+fileFormatVersion: 2
+guid: b815ba2e75fd85743ab08aa44fdd2dfa
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: barrel
+    100002: //RootNode
+    100004: Box137
+    100006: Box153
+    100008: Box154
+    100010: Box180
+    100012: Box181
+    100014: Box182
+    100016: Box183
+    100018: Box184
+    100020: Box185
+    100022: Box186
+    100024: Box187
+    100026: Box188
+    100028: Box189
+    100030: building
+    100032: Factory
+    100034: fence_group
+    100036: fuselage005
+    100038: ground001
+    100040: hammer_g_006
+    100042: hammer_g_007
+    100044: hangar_01
+    100046: hangar_02
+    100048: hangar_03
+    100050: helicopter_005
+    100052: heliport
+    100054: machine001
+    100056: main_rotor005
+    100058: OldTower:OldTower
+    100060: Props05 [Kontainer]
+    100062: Props05 [SandBag02]
+    100064: Props05 [WatchTower01]
+    100066: Props05 [WatchTower01]002
+    100068: Props05 [WireDoor]
+    100070: Props05 [WireWall]
+    100072: smdimport044
+    100074: smdimport045
+    100076: smdimport046
+    100078: smdimport047
+    100080: tank006
+    100082: turel_1
+    100084: turel_2
+    100086: Tyres_group
+    100088: Box222
+    100090: container_023
+    100092: Group001
+    100094: Plane099
+    100096: Plane101
+    100098: Plane102
+    100100: Plane103
+    400000: barrel
+    400002: //RootNode
+    400004: Box137
+    400006: Box153
+    400008: Box154
+    400010: Box180
+    400012: Box181
+    400014: Box182
+    400016: Box183
+    400018: Box184
+    400020: Box185
+    400022: Box186
+    400024: Box187
+    400026: Box188
+    400028: Box189
+    400030: building
+    400032: Factory
+    400034: fence_group
+    400036: fuselage005
+    400038: ground001
+    400040: hammer_g_006
+    400042: hammer_g_007
+    400044: hangar_01
+    400046: hangar_02
+    400048: hangar_03
+    400050: helicopter_005
+    400052: heliport
+    400054: machine001
+    400056: main_rotor005
+    400058: OldTower:OldTower
+    400060: Props05 [Kontainer]
+    400062: Props05 [SandBag02]
+    400064: Props05 [WatchTower01]
+    400066: Props05 [WatchTower01]002
+    400068: Props05 [WireDoor]
+    400070: Props05 [WireWall]
+    400072: smdimport044
+    400074: smdimport045
+    400076: smdimport046
+    400078: smdimport047
+    400080: tank006
+    400082: turel_1
+    400084: turel_2
+    400086: Tyres_group
+    400088: Box222
+    400090: container_023
+    400092: Group001
+    400094: Plane099
+    400096: Plane101
+    400098: Plane102
+    400100: Plane103
+    2300000: barrel
+    2300002: Box137
+    2300004: Box153
+    2300006: Box154
+    2300008: Box180
+    2300010: Box181
+    2300012: Box182
+    2300014: Box183
+    2300016: Box184
+    2300018: Box185
+    2300020: Box186
+    2300022: Box187
+    2300024: Box188
+    2300026: Box189
+    2300028: Factory
+    2300030: fuselage005
+    2300032: ground001
+    2300034: hangar_01
+    2300036: hangar_02
+    2300038: hangar_03
+    2300040: heliport
+    2300042: main_rotor005
+    2300044: OldTower:OldTower
+    2300046: Props05 [Kontainer]
+    2300048: Props05 [SandBag02]
+    2300050: Props05 [WatchTower01]
+    2300052: Props05 [WatchTower01]002
+    2300054: Props05 [WireDoor]
+    2300056: Props05 [WireWall]
+    2300058: smdimport044
+    2300060: smdimport045
+    2300062: smdimport046
+    2300064: smdimport047
+    2300066: tank006
+    2300068: turel_1
+    2300070: turel_2
+    2300072: Box222
+    2300074: container_023
+    2300076: Plane099
+    2300078: Plane101
+    2300080: Plane102
+    2300082: Plane103
+    3300000: barrel
+    3300002: Box137
+    3300004: Box153
+    3300006: Box154
+    3300008: Box180
+    3300010: Box181
+    3300012: Box182
+    3300014: Box183
+    3300016: Box184
+    3300018: Box185
+    3300020: Box186
+    3300022: Box187
+    3300024: Box188
+    3300026: Box189
+    3300028: Factory
+    3300030: fuselage005
+    3300032: ground001
+    3300034: hangar_01
+    3300036: hangar_02
+    3300038: hangar_03
+    3300040: heliport
+    3300042: main_rotor005
+    3300044: OldTower:OldTower
+    3300046: Props05 [Kontainer]
+    3300048: Props05 [SandBag02]
+    3300050: Props05 [WatchTower01]
+    3300052: Props05 [WatchTower01]002
+    3300054: Props05 [WireDoor]
+    3300056: Props05 [WireWall]
+    3300058: smdimport044
+    3300060: smdimport045
+    3300062: smdimport046
+    3300064: smdimport047
+    3300066: tank006
+    3300068: turel_1
+    3300070: turel_2
+    3300072: Box222
+    3300074: container_023
+    3300076: Plane099
+    3300078: Plane101
+    3300080: Plane102
+    3300082: Plane103
+    4300000: heliport
+    4300002: turel_1
+    4300004: barrel
+    4300006: Box137
+    4300008: Box180
+    4300010: Box154
+    4300012: Box153
+    4300014: Box188
+    4300016: Box187
+    4300018: Box189
+    4300020: Box184
+    4300022: Box181
+    4300024: Box185
+    4300026: Box186
+    4300028: Box182
+    4300030: Box183
+    4300032: ground001
+    4300034: Props05 [WatchTower01]002
+    4300036: OldTower:OldTower
+    4300038: Props05 [WatchTower01]
+    4300040: Factory
+    4300042: main_rotor005
+    4300044: fuselage005
+    4300046: turel_2
+    4300048: hangar_02
+    4300050: hangar_01
+    4300052: hangar_03
+    4300054: Props05 [Kontainer]
+    4300056: Props05 [SandBag02]
+    4300058: Props05 [WireWall]
+    4300060: Props05 [WireDoor]
+    4300062: smdimport044
+    4300064: smdimport045
+    4300066: smdimport046
+    4300068: smdimport047
+    4300070: tank006
+    4300072: container_023
+    4300074: Box222
+    4300076: Plane102
+    4300078: Plane099
+    4300080: Plane101
+    4300082: Plane103
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 4e6e65aeaccdc4a4b8c967c2ae185f65
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box02
+    100004: Box223
+    100006: Box226
+    100008: Box230
+    100010: Box239
+    100012: Box240
+    100014: Box241
+    100016: Box242
+    100018: Box243
+    100020: Box244
+    100022: Box245
+    100024: Box247
+    100026: hammer_g_016
+    100028: hammer_g_017
+    100030: smdimport064
+    100032: smdimport065
+    100034: smdimport066
+    100036: smdimport067
+    400000: //RootNode
+    400002: Box02
+    400004: Box223
+    400006: Box226
+    400008: Box230
+    400010: Box239
+    400012: Box240
+    400014: Box241
+    400016: Box242
+    400018: Box243
+    400020: Box244
+    400022: Box245
+    400024: Box247
+    400026: hammer_g_016
+    400028: hammer_g_017
+    400030: smdimport064
+    400032: smdimport065
+    400034: smdimport066
+    400036: smdimport067
+    2300000: Box02
+    2300002: Box223
+    2300004: Box226
+    2300006: Box230
+    2300008: Box239
+    2300010: Box240
+    2300012: Box241
+    2300014: Box242
+    2300016: Box243
+    2300018: Box244
+    2300020: Box245
+    2300022: Box247
+    2300024: smdimport064
+    2300026: smdimport065
+    2300028: smdimport066
+    2300030: smdimport067
+    3300000: Box02
+    3300002: Box223
+    3300004: Box226
+    3300006: Box230
+    3300008: Box239
+    3300010: Box240
+    3300012: Box241
+    3300014: Box242
+    3300016: Box243
+    3300018: Box244
+    3300020: Box245
+    3300022: Box247
+    3300024: smdimport064
+    3300026: smdimport065
+    3300028: smdimport066
+    3300030: smdimport067
+    4300000: Box241
+    4300002: Box244
+    4300004: Box243
+    4300006: Box239
+    4300008: Box240
+    4300010: Box245
+    4300012: Box242
+    4300014: Box226
+    4300016: Box223
+    4300018: Box230
+    4300020: Box247
+    4300022: smdimport066
+    4300024: smdimport067
+    4300026: Box02
+    4300028: smdimport064
+    4300030: smdimport065
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  userData: 

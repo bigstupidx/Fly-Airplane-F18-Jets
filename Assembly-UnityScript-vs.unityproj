@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{0AD7D215-5885-68C8-F31E-7A592B39D2D7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Imported\MilitaryVehicles\Scripts\CameraRot.js" />
+     <Compile Include="Assets\Imported\Panther\Demo Scene\AutoDestroy.js" />
+     <Compile Include="Assets\Imported\Panther\Demo Scene\Ball.js" />
+     <Compile Include="Assets\Imported\Panther\Demo Scene\MoveGun.js" />
+     <Compile Include="Assets\Imported\Panther\Demo Scene\MoveTrack.js" />
+     <Compile Include="Assets\Imported\Panther\Demo Scene\MoveTurret.js" />
+     <None Include="Assets\Shaders\WaterShader.shader" />
+     <None Include="Assets\Shaders\2SideTransparent.shader" />
+     <None Include="Assets\Shaders\UnlitTransparentBW.shader" />
+     <None Include="Assets\Imported\Container_ship\readme.txt" />
+     <None Include="Assets\TerrainsMeshes\Materials\TerrainPrimitive.shader" />
+     <None Include="Assets\Graphics\Water.shader" />
+     <None Include="Assets\Imported\Attack Hellicopter\Attack Choppa info.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Graphics\Shaders\MonoColor\OpaqueLitColor.shader" />
+     <None Include="Assets\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Graphics\Shaders\MonoColor\OpaqueNLitColor.shader" />
+     <None Include="Assets\Graphics\Shaders\Nature\Water.shader" />
+     <None Include="Assets\Graphics\Shaders\MonoColor\TransparentLitColor.shader" />
+     <None Include="Assets\Imported\MilitaryVehicles\Shader\CarPaint.shader" />
+     <None Include="Assets\Shaders\$FX-Water Simple Lighted.shader" />
+     <None Include="Assets\Graphics\TreeShader.shader" />
+     <None Include="Assets\Plugins\Android\res\values\google_play_services_version.xml" />
+     <None Include="Assets\Graphics\Shaders\TransparentNLitTex.shader" />
+     <None Include="Assets\Shaders\WaypointShader.shader" />
+     <None Include="Assets\Shaders\TextShader.shader" />
+     <None Include="Assets\Storm Effects\README.txt" />
+     <None Include="Assets\Skybox\Shader\RealSky.shader" />
+     <None Include="Assets\Imported\MilitaryBuildingElements\Shader\2Side.shader" />
+     <None Include="Assets\Imported\Container_ship\Shaders\Enamel.shader" />
+     <None Include="Assets\Imported\MilitaryBuildingElements\Shader\TwoLayerTerrain.shader" />
+     <None Include="Assets\Graphics\Shaders\MonoColor\TransparentNLitColor.shader" />
+     <None Include="Assets\Graphics\Shaders\TerrainShaderBumped.shader" />
+     <None Include="Assets\Graphics\Shaders\TerrainShader.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/mikhail/Warplane-7/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="NP_AdmobAd_WP">
+ <HintPath>/Users/mikhail/Warplane-7/Assets/Plugins/NP_AdmobAd_WP.dll</HintPath>
+ </Reference>
+ <Reference Include="AdmobAdLib">
+ <HintPath>/Users/mikhail/Warplane-7/Assets/Standard Assets/NeatPlug/Ads/AdmobAd/AdmobAdLib.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{4219FD37-16A5-2C5B-9F99-FC3D6F9886E8}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
