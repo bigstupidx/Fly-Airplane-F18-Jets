@@ -20,6 +20,7 @@ public class PlaneMissionsList : MonoBehaviour, IEventSubscriber
 
     private List<GameObject> _missionPlanes;
 
+	public Camera Cam2D;
 
     private readonly Dictionary<int, string> _missionDescriptions = new Dictionary<int, string>
     {
@@ -203,9 +204,9 @@ public class PlaneMissionsList : MonoBehaviour, IEventSubscriber
                 if (!_drag)
                 {
                     _drag = true;
-                    _dragStart = MenuController.Instance.Cam2D.ScreenPointToRay(
-                        MenuController.Instance.LastStartedGesture.EndPoint).origin.y;
-                    _dragStartPos = transform.position;
+//                    _dragStart = MenuController.Instance.Cam2D.ScreenPointToRay(MenuController.Instance.LastStartedGesture.EndPoint).origin.y;
+				    _dragStart = Cam2D.ScreenPointToRay(Input.mousePosition).origin.y;
+				_dragStartPos = transform.position;
                 }
 
                 break;
@@ -245,9 +246,10 @@ public class PlaneMissionsList : MonoBehaviour, IEventSubscriber
         if (_drag)
         {
             Vector3 pos = _dragStartPos;
-            Vector3 dragEnd = MenuController.Instance.Cam2D.ScreenPointToRay(
-                MenuController.Instance.LastStartedGesture.EndPoint).origin;
-            pos.y += (_dragVelocity = dragEnd.y - _dragStart);
+//            Vector3 dragEnd = MenuController.Instance.Cam2D.ScreenPointToRay(
+//              MenuController.Instance.LastStartedGesture.EndPoint).origin;
+			Vector3 dragEnd = Cam2D.ScreenPointToRay(Input.mousePosition).origin;
+			pos.y += (_dragVelocity = dragEnd.y - _dragStart);
             float a = transform.parent.InverseTransformPoint(pos).y;
             if (a >= 3 && a <= (TransportGOController.Instance.Missions.Length - 2.5f) * 2)
                 transform.position = pos;

@@ -262,6 +262,7 @@ MonoBehaviour:
   MainPlaneTexture: {fileID: 2800000, guid: 4e0eb1fa50e964a6789794de5bf6f8b2, type: 3}
   ActivePlaneTexture: {fileID: 2800000, guid: c0712e53d977b4830a7c7cd0619b62ce, type: 3}
   SelectedMission: -1
+  Cam2D: {fileID: 1998423154}
 --- !u!1 &111095431
 GameObject:
   m_ObjectHideFlags: 0
@@ -11388,7 +11389,6 @@ GameObject:
   - 92: {fileID: 1998423153}
   - 124: {fileID: 1998423152}
   - 114: {fileID: 1998423151}
-  - 114: {fileID: 1998423156}
   m_Layer: 0
   m_Name: 2DCamera
   m_TagString: MainCamera
@@ -11466,17 +11466,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 240217064}
   m_RootOrder: 2
---- !u!114 &1998423156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1998423150}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3951f216991f48098f6b7eecb4ad09d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1999771993
 GameObject:
   m_ObjectHideFlags: 0
